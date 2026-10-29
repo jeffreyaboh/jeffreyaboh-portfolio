@@ -28,9 +28,11 @@
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
 
   function mobileNavToogle() {
-    document.querySelector('body').classList.toggle('mobile-nav-active');
+    const isOpen = document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavToggleBtn.classList.toggle('bi-list');
     mobileNavToggleBtn.classList.toggle('bi-x');
+    mobileNavToggleBtn.setAttribute('aria-expanded', String(isOpen));
+    mobileNavToggleBtn.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
   }
   if (mobileNavToggleBtn) {
     mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
@@ -95,6 +97,7 @@
    * Animation on scroll function and init
    */
   function aosInit() {
+    if (typeof AOS === 'undefined') return;
     AOS.init({
       duration: 600,
       easing: 'ease-in-out',
@@ -123,7 +126,9 @@
   /**
    * Initiate Pure Counter
    */
-  new PureCounter();
+  if (typeof PureCounter === 'function') {
+    new PureCounter();
+  }
 
   /**
    * Animate the skills items on reveal
@@ -164,9 +169,11 @@
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
+  if (typeof GLightbox === 'function') {
+    GLightbox({
+      selector: '.glightbox'
+    });
+  }
 
   /**
    * Init isotope layout and filters

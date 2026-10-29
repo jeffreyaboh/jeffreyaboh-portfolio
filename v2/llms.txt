@@ -1,0 +1,19 @@
+# Jeffrey Aboh
+
+> Personal website of Jeffrey Aboh, a team lead and senior software and AI engineer at Ethion Technologies.
+
+Jeffrey Aboh builds web and mobile products, API services, and AI-enabled experiences. His work combines hands-on full-stack engineering with product engineering, team leadership, and business development.
+
+## Pages
+
+- [Home](https://jeffreyaboh.co.uk/): Overview of Jeffrey Aboh and his featured project, Ethion.
+- [Resume](https://jeffreyaboh.co.uk/resume.html): Professional experience, skills, and technologies.
+- [Contact](https://jeffreyaboh.co.uk/contact.html): Contact details and social profiles.
+
+## Featured project
+
+- [Ethion Cloud](https://ethion.cloud/): An AI-assisted app-building platform for creating branded Android, iOS, and web/PWA apps.
+
+## Areas of work
+
+Full-stack software engineering, web and mobile application development, API services, AI and LLM integration, AI agents, cloud infrastructure, product engineering, and engineering leadership.

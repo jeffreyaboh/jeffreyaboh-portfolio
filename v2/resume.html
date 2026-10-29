@@ -4,9 +4,22 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Resume - Jeffrey Aboh</title>
-  <meta name="description" content="Jeffrey Aboh - Team Lead, Business Developer, Senior Software & AI Engineer">
-  <meta name="keywords" content="Jeffrey Aboh, Resume, Software Engineer, AI Engineer, Full Stack Developer">
+  <title>Resume | Jeffrey Aboh</title>
+  <meta name="description" content="Professional profile and experience of Jeffrey Aboh, Team Lead and Senior Software &amp; AI Engineer at Ethion Technologies.">
+  <meta name="author" content="Jeffrey Aboh">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://jeffreyaboh.co.uk/resume.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Jeffrey Aboh">
+  <meta property="og:title" content="Resume | Jeffrey Aboh">
+  <meta property="og:description" content="Professional profile and experience of Jeffrey Aboh, Team Lead and Senior Software &amp; AI Engineer at Ethion Technologies.">
+  <meta property="og:url" content="https://jeffreyaboh.co.uk/resume.html">
+  <meta property="og:image" content="https://jeffreyaboh.co.uk/assets/img/profile-img.jpg">
+  <meta property="og:image:alt" content="Portrait of Jeffrey Aboh">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Resume | Jeffrey Aboh">
+  <meta name="twitter:description" content="Professional profile and experience of Jeffrey Aboh, Team Lead and Senior Software &amp; AI Engineer at Ethion Technologies.">
+  <meta name="twitter:image" content="https://jeffreyaboh.co.uk/assets/img/profile-img.jpg">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -15,17 +28,14 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css?v=20261029-2" rel="stylesheet">
 
   <style>
     /* ===== Resume Page Custom Styles ===== */
@@ -85,6 +95,14 @@
       margin-bottom: 24px;
     }
 
+    .resume-summary {
+      max-width: 760px;
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 17px;
+      line-height: 1.8;
+      margin-bottom: 24px;
+    }
+
     .resume-hero .resume-contact-info {
       display: flex;
       flex-wrap: wrap;
@@ -109,50 +127,6 @@
     .resume-hero .resume-contact-info i {
       color: #18d26e;
       font-size: 16px;
-    }
-
-    .resume-actions {
-      display: flex;
-      gap: 14px;
-      flex-wrap: wrap;
-    }
-
-    .btn-resume {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 12px 28px;
-      border-radius: 50px;
-      font-size: 14px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      transition: all 0.3s ease;
-    }
-
-    .btn-resume-primary {
-      background: linear-gradient(135deg, #18d26e 0%, #0fa958 100%);
-      color: #000;
-      border: none;
-    }
-
-    .btn-resume-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(24, 210, 110, 0.3);
-      color: #000;
-    }
-
-    .btn-resume-outline {
-      background: transparent;
-      color: #18d26e;
-      border: 2px solid rgba(24, 210, 110, 0.4);
-    }
-
-    .btn-resume-outline:hover {
-      border-color: #18d26e;
-      background: rgba(24, 210, 110, 0.1);
-      color: #18d26e;
-      transform: translateY(-2px);
     }
 
     /* Section styling */
@@ -352,67 +326,6 @@
       color: #18d26e;
     }
 
-    /* Education Cards */
-    .education-card {
-      padding: 28px 32px;
-      background: linear-gradient(135deg, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.4) 100%);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      border-radius: 16px;
-      margin-bottom: 20px;
-      transition: all 0.4s ease;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .education-card::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: linear-gradient(180deg, #18d26e, rgba(24, 210, 110, 0.2));
-      border-radius: 4px 0 0 4px;
-    }
-
-    .education-card:hover {
-      border-color: rgba(24, 210, 110, 0.2);
-      transform: translateX(4px);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    }
-
-    .education-card .date-badge {
-      display: inline-block;
-      padding: 4px 14px;
-      background: rgba(24, 210, 110, 0.1);
-      border: 1px solid rgba(24, 210, 110, 0.2);
-      border-radius: 20px;
-      font-size: 12px;
-      font-weight: 600;
-      color: #18d26e;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      margin-bottom: 12px;
-    }
-
-    .education-card h4 {
-      font-size: 20px;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 4px;
-    }
-
-    .education-card .institution {
-      font-size: 15px;
-      color: rgba(255, 255, 255, 0.5);
-      font-style: italic;
-    }
-
-    .education-card .institution i {
-      color: #18d26e;
-      margin-right: 4px;
-    }
-
     /* Separator */
     .resume-divider {
       border: none;
@@ -474,7 +387,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <h1 class="sitename">Jeffrey Aboh</h1>
+        <span class="sitename">Jeffrey Aboh</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -483,7 +396,7 @@
           <li><a href="resume.html" class="active">Resume</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <button class="mobile-nav-toggle d-xl-none bi bi-list" type="button" aria-label="Open navigation menu" aria-controls="navmenu" aria-expanded="false"></button>
       </nav>
 
     </div>
@@ -498,18 +411,11 @@
           <div class="col-lg-8">
             <h1>Jeffrey Aboh</h1>
             <p class="subtitle">Team Lead &bull; Business Developer &bull; Senior Software &amp; AI Engineer</p>
+            <p class="resume-summary">Technology leader and full-stack engineer focused on building web and mobile products, API services, and AI-enabled experiences. Combines hands-on engineering with team leadership, product strategy, and business development.</p>
             <div class="resume-contact-info">
               <a href="https://www.linkedin.com/in/jeffrey-aboh-50971b84/"><i class="bi bi-linkedin"></i> LinkedIn</a>
               <a href="https://www.instagram.com/jeffaboh/"><i class="bi bi-instagram"></i> Instagram</a>
               <a href="contact.html"><i class="bi bi-envelope"></i> Contact Me</a>
-            </div>
-            <div class="resume-actions">
-              <a href="https://docs.google.com/document/d/e/2PACX-1vSjUzcovuBjsg3dIEKjI6Y4sfTW3rilCEmDngyUiMDdcSnrI9wKTmTuKDOBMEZxwN-ZJviJDSltCPml/pub" target="_blank" class="btn-resume btn-resume-primary">
-                <i class="bi bi-file-earmark-text"></i> View Full Resume
-              </a>
-              <a href="https://docs.google.com/document/d/e/2PACX-1vSjUzcovuBjsg3dIEKjI6Y4sfTW3rilCEmDngyUiMDdcSnrI9wKTmTuKDOBMEZxwN-ZJviJDSltCPml/pub?embedded=true" target="_blank" class="btn-resume btn-resume-outline">
-                <i class="bi bi-download"></i> Download PDF
-              </a>
             </div>
           </div>
         </div>
@@ -530,34 +436,11 @@
             <h4>Team Lead &amp; Senior Software Engineer</h4>
             <p class="company"><i class="bi bi-building"></i> Ethion Technologies</p>
             <ul>
-              <li>Lead development of full-stack web and mobile applications using modern frameworks</li>
-              <li>Architect scalable API services and cloud infrastructure solutions</li>
-              <li>Drive AI/ML integration to enhance product capabilities and user experience</li>
-              <li>Manage cross-functional teams and mentor junior developers</li>
-              <li>Oversee business development strategy and client acquisition</li>
-            </ul>
-          </div>
-
-          <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
-            <span class="date-badge">2018 &mdash; 2020</span>
-            <h4>Full Stack Developer</h4>
-            <p class="company"><i class="bi bi-building"></i> Previous Company</p>
-            <ul>
-              <li>Developed responsive web applications using Angular, React, and Node.js</li>
-              <li>Built RESTful APIs and integrated third-party services</li>
-              <li>Implemented CI/CD pipelines for automated deployment workflows</li>
-              <li>Collaborated with design teams to deliver pixel-perfect user interfaces</li>
-            </ul>
-          </div>
-
-          <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
-            <span class="date-badge">2016 &mdash; 2018</span>
-            <h4>Software Developer</h4>
-            <p class="company"><i class="bi bi-building"></i> Previous Company</p>
-            <ul>
-              <li>Developed and maintained enterprise software solutions</li>
-              <li>Participated in agile development processes and code reviews</li>
-              <li>Optimized application performance and database queries</li>
+              <li>Lead product engineering for Ethion Cloud, an AI-assisted platform for creating branded Android, iOS, and Web/PWA apps.</li>
+              <li>Architect and deliver full-stack web and mobile products, API services, and supporting cloud infrastructure.</li>
+              <li>Guide technical direction, code quality, and delivery across product development.</li>
+              <li>Lead and mentor engineers while coordinating work across product and business priorities.</li>
+              <li>Translate customer and business needs into product improvements and development priorities.</li>
             </ul>
           </div>
         </div>
@@ -651,32 +534,6 @@
       </div>
     </section>
 
-    <hr class="resume-divider">
-
-    <!-- Education -->
-    <section class="resume-section" data-aos="fade-up">
-      <div class="container">
-        <p class="resume-section-title">Education</p>
-        <h2 class="resume-section-heading">Academic Background</h2>
-
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="education-card" data-aos="fade-up" data-aos-delay="100">
-              <span class="date-badge">Graduated</span>
-              <h4>Bachelor's Degree in Computer Science</h4>
-              <p class="institution"><i class="bi bi-mortarboard"></i> University</p>
-            </div>
-
-            <div class="education-card" data-aos="fade-up" data-aos-delay="200">
-              <span class="date-badge">Certifications</span>
-              <h4>Professional Certifications &amp; Continuing Education</h4>
-              <p class="institution"><i class="bi bi-award"></i> Various Platforms &amp; Institutions</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -684,8 +541,8 @@
       <h3 class="sitename">Jeffrey's Word to the World (W2W)</h3>
       <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the better and more successful you become.</p>
       <div class="social-links d-flex justify-content-center">
-        <a href="https://www.instagram.com/jeffaboh/"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/jeffrey-aboh-50971b84/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/jeffaboh/" aria-label="Jeffrey Aboh on Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/jeffrey-aboh-50971b84/" aria-label="Jeffrey Aboh on LinkedIn"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
@@ -699,25 +556,16 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=20261029-2"></script>
 
 </body>
 
